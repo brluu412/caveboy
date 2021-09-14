@@ -1,0 +1,70 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+		function randomlinks(){
+    	var myrandom=Math.round(Math.random()*8)
+    	var links=new Array()
+    	links[0]="monkey.html"
+    	links[1]="naenae.html"
+   		links[2]="fatyoshi.html"
+    	links[3]="skate.html"
+   	 	links[4]="oldman.html"
+    	links[5]="mat.html"
+    	links[6]="kairo.html"
+    	links[7]="koichi.html"
+    	links[8]="skeleton.html"
+ 
+    	window.location=links[myrandom]
+		}
+		</script>
+		<title>Treasure!</title>
+		<style>
+		body {margin:0; padding: 0;
+			background-color: #f7d76d;
+		}
+
+		.back{
+			background-image: url('imageboy/back.png');
+			display:block;
+			background-repeat:no-repeat;
+			position:relative;
+			height: 200px;
+			width: 400px;
+	
+		}
+
+		.chest{
+			background-image: url('imageboy/chest.png');
+			display:block;
+			background-repeat:no-repeat;
+			position:relative;
+			height: 500px;
+			width: 600px;
+
+		}
+
+		.chest:hover{
+
+		background-image: url('imageboy/chest2.png');
+		display:block;
+		position:relative;
+		height: 500px;
+		width: 600px;
+		background-repeat: no-repeat;
+		}
+
+		</style>
+	</head>
+
+	<body>
+
+	<a class="back" title="back" id="back" href="Caveboy.html" alt="Back Button"></a>
+
+	<center>
+		<a class="chest" title="chest" id="chest" onClick="randomlinks()"></a>
+	</center>
+
+
+	</body>
+</html>

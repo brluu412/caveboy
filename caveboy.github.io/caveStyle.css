@@ -1,0 +1,59 @@
+body{
+		/*background*/	
+		background: url('imageboy/test.png');
+		background-attachment:scroll;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: #302314;
+		/*Scrolling*/
+		height:10000;
+	}
+
+.back{
+			background-color:#96754d;
+			background-image: url('imageboy/back.png');
+			top:0;
+			display:block;
+			position:sticky;
+			background-repeat:round;
+			height: 100px;
+			width: 200px;
+	
+		}
+
+#flower{
+	text-align:center;
+}
+
+ #idDoor{
+ 	text-align:center;
+ }
+
+.flowerboy{
+	position:relative;
+	vertical-align: top;
+    margin-left:32px;
+    margin-top:4935px;
+    display: inline-block;
+	position:relative;
+}
+
+
+.door{
+	background-image: url('imageboy/door1.png');
+	vertical-align: top;
+    margin-left:400px;
+    margin-top:4325px;
+    display: inline-block;
+	position:relative;
+	height: 500px;
+	width: 500px;
+	border: solid 0px #000000;
+}
+
+.door:hover{
+	background-image: url('imageboy/door2.png');
+	height: 500px;
+	width: 500px;
+	background-position: center;
+}

@@ -1,0 +1,84 @@
+body{
+color: black;
+/*background-image: linear-gradient(to bottom right, red, orange,yellow,green,blue,purple);
+*/
+background-image: url('imageboy/esferabg.jpg');
+ background-repeat: no-repeat;
+ background-size: 1800px 2000px;
+ display:flex;
+}
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+p{
+	font-size: 30px;
+	font-family: Comic Sans MS;
+}
+h4{
+	font-size: 30px;
+}
+img{
+	height: 500px;
+	width: 500px;
+}
+p{
+	font-size:48px;
+}
+p2{
+	font-size:48px;
+}
+.para{
+	font-size:24px;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	/*width:200px;*/
+	overflow:hidden;
+	background-color:white;
+	position:fixed;
+}
+li{
+	float:left;
+}
+li a{
+	display:black;
+	color:black;
+	text-align:center;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+li a:hover{
+	background-image: url('https://cdn.discordapp.com/attachments/163845730417639424/628829268482457629/SPOILER_SPOILER_EFMaEWIWsAEr8kE.png');
+	color:white;
+}
+.active{
+	background-color: lightblue;
+}
+.img1{
+	background-image: url('imageboy/itme.png');
+	height: 500px;
+	width: 500px;
+	background-repeat: round;
+}
+.img1:hover{
+	background-image: url('https://cdn.discordapp.com/attachments/163845730417639424/628829268482457629/SPOILER_SPOILER_EFMaEWIWsAEr8kE.png');
+	height: 500px;
+	width: 500px;
+	background-size:70%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
